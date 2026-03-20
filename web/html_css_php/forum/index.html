@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- para permitir caracteres pt: ç, ~, etc. -->
+    <meta charset="UTF-8">
+    <!-- fazer o auto ajuste para visualizações de ecrãs -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- texto que vai aparecer na barra de título do browser -->
+    <title>Gestão de Notícias - MO</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+        <!-- Os títulos (heading) variam de 1 (maior) a 6 (menor)-->    
+        <h1>Forum dos Programadores</h1>
+        <br/><br/> <!-- Tag só de fecho -->
+        <form action="login.php" method="post">
+            Nick: <input type="text" name="nick" size="20" maxlength="20">
+            <br><br>
+            Senha: <input type="password" name="senha" size="20" maxlength="20">
+            <br><br>
+            <input type="submit" value="Entrar"><br><br>
+        </form>
+        <!-- Ao criar a hiperligação digo o 'href' (a página a abrir) e devo indicar o target (_self) no próprio separador (_blank) num novo separador -->
+        Não tem conta <a href="registo.html" target="_self">registe-se</a><br/><br/>
+        <!-- <a href="inserir.html" target="_self">Inserir Clientes</a><br/><br/>
+        <a href="eliminar1.php" target="_self">Eliminar Clientes</a><br/><br/>
+        <a href="alterar1.php" target="_self">Alterar Clientes</a><br/><br/> -->    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>IMC - MO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Cálculo do IMC - MO</h1>            
+        </header>
+        <section>
+            <!-- method (post, get) e action (nome da página para onde envia 
+            os dados)-->
+            <form action="imc.jsp" method="post">
+                <!-- size: tamanho visual, maxlenght: número máximo de 
+                caracteres-->
+                Peso:<input type="text" name="peso" size="15" 
+                            maxlength="15"><br/><br/>
+                Altura:<input type="text" name="altura" size="15" 
+                              maxlength="15"><br/><br/>
+                Género:<br/>
+                <input type="radio" name="genero" value="fem">Feminino<br/>
+                <input type="radio" name="genero" value="masc">Masculino<br/>
+                <br/>
+                <!-- o type submit envia os dados do form para o local definido 
+                em acion-->
+                <input type="submit" value="Calcular">
+                <!-- o type reset limpa os campos preenchidos no formulário-->
+                <input type="reset" value="limpar">
+            </form>
+        </section>
+        <footer>
+            <p>Postado por: Michael Ortiz</p>
+            <p><time datetime="2026-01-16">January 16, 2026</time></p>
+        </footer>
+    </body>
+</html>

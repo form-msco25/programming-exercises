@@ -1,0 +1,3 @@
+Indique o valor de “a” que será impresso no ecrã. Justifique a sua resposta:
+
+O valor de "a" é 17. Sendo que a variável está declarada como double, no ecrã aparece impresso da seguinte maneira: 17.000000

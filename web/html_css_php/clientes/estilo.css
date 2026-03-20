@@ -1,0 +1,26 @@
+body{
+    background-color: darkseagreen;
+    color: navy;
+    background-image: image-set("https://images.euronews.com/articles/stories/07/90/13/24/1536x864_cmsv2_928ffc2f-354d-5d40-a6c6-47461b68625e-7901324.jpg");
+}
+
+h1{
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: cadetblue;  
+    background-color: darkolivegreen;
+    padding: 5px 50px;
+}
+
+a:hover{
+    background-color: dodgerblue;
+    color: darkgoldenrod;
+}

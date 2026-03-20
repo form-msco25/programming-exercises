@@ -1,0 +1,2 @@
+Alocação dinâmica da memória.-
+Possibilita reservar um espaço na memória em tempo de execução. Facilita a criação de programas eficientes reduzindo o consumo de memória.

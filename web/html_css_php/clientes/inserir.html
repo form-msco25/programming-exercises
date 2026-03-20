@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- para permitir caracteres pt: ç, ~, etc. -->
+    <meta charset="UTF-8">
+    <!-- fazer o auto ajuste para visualizações de ecrãs -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- texto que vai aparecer na barra de título do browser -->
+    <title>Gestão de Clientes - MO</title>
+</head>
+<body>
+        <!-- Os títulos (heading) variam de 1 (maior) a 6 (menor)-->    
+        <h1>Inserçao de Clientes</h1>
+        <!-- Para enviar os dados para outra página uso a tag form action (nome da página para onde envio) methos (post para camuflar os dados)-->
+        <form action="inserir.php" method="post">
+            <!-- Quando crio o input devo definir o type e name obrigatoriamente-->
+            Nome: <input type="text" name="nome" size="80" maxlength="100"><br/><br/>
+            Morada: <input type="text" name="morada" size="80" maxlength="100"><br/><br/>
+            Zona: <input type="text" name="zona" size="30" maxlength="30"><br/><br/>
+            NIF: <input type="text" name="nif" size="9" maxlength="9"><br/><br/>
+            Volume de faturação: <input type="text" name="vol_fatur" width="10" maxlength="10"><br/><br/>
+            <input type="submit" value="Inserir"><br/><br/>
+            <input type="reset" value="Limpar"><br/><br/>
+        </form>
+        <br/><br/> <!-- Tag só de fecho -->
+        <!-- Ao criar a hiperligação digo o 'href' (a página a abrir) e devo indicar o target (_self) no próprio separador (_blank) num novo separador -->
+        <a href="index.html" target="_self">Voltar ao Início</a><br/><br/>
+</body>
+</html>

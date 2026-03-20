@@ -1,0 +1,57 @@
+﻿@model MVC_Viatura.Models.Vendedor
+
+@{
+    ViewData["Title"] = "Apagar Vendedores";
+}
+
+<h1>Apagar Vendedor</h1>
+
+<h3>Deseja apagar o seguinte vendedor?</h3>
+<div>
+    <h4>Vendedor</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Morada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Morada)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nib)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nib)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Contribuinte)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Contribuinte)
+        </dd>
+    </dl>
+    <br /><br />
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a asp-action="Index">Menu Vendedores</a>
+    </form>
+</div>

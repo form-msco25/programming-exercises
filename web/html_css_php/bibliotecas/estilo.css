@@ -1,0 +1,31 @@
+body{ /*EFEITO A APLICAR A TODA A ÁGINA*/
+    background-color: darkseagreen;
+    color: rgb(247, 247, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: image-set("https://www.pipol.news/content/images/2024/11/bibliotecadealejandria-1024x576.webp");    
+    background-position: center;      /* centraliza a imagem */
+    background-repeat: no-repeat;     /* evita repetição */
+    /* background-size: contain;      /* ajusta tamanho para caber no elemento */
+}
+
+h1{
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{ /* HIPERLIGAÇÕES */
+    text-decoration: none;
+    color: cadetblue;  
+    background-color: darkolivegreen;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+
+a:hover{ /* RATO EM CIMA DA LIGAÇÃO*/
+    background-color: dodgerblue;
+    color: darkgoldenrod;
+}

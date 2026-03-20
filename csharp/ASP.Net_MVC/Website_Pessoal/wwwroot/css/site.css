@@ -1,0 +1,87 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* tags html redefinidas, classes e id */
+h5 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    padding: 10px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+#btt_top {
+    width: 200px;
+    color: white;
+    background-color: #111;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+    #btt_top:hover {
+        background-color: #28a745;
+        color: white;
+        padding: 12px 20px;
+        transform: scale(1.05);
+    }
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: white;
+    font-size: 14px;
+}
+.par_fut {
+    background: linear-gradient(90deg, #006400, #228B22);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.par_musc {
+    background: linear-gradient(90deg, #8B0000, #FF4500);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.par_run {
+    background: linear-gradient(90deg, #004e92, #000428);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}

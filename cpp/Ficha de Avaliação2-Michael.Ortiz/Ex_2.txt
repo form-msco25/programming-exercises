@@ -1,0 +1,8 @@
+Indique as principais diferenças entre uma “struct” e uma “union”,
+exemplificando cada uma delas.
+
+Struct.-
+Estrutura de dados onde é possível armazenar diversos tipos de variáveis e dados
+
+Union.-
+Também é uma estrutura de dados com a diferença que a informação armazenada sobrepõem-se à anterior informação alocada.

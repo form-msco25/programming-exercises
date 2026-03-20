@@ -1,0 +1,87 @@
+body{   
+    background-color: #f1f6f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.5; /*espaço entre linhar*/
+}
+h1{
+    background: linear-gradient(90deg, #2c7da0, #61a5c2); /*fundo em degradê*/
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;    
+    padding: 30px 20px; /*espaço interno*/
+    margin: 0;
+    letter-spacing: 1px; /*espaçamento entre letras*/
+}
+a{
+    text-decoration: none; /* retira o sublinhado*/
+    color: #ffffff; 
+}
+nav{
+    display: flex; /*coloca os links em linha*/
+    justify-content: center; /*centraliza os links*/
+    background-color: #1b4965;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); /*sombra destaque do menu*/
+}
+nav a{ 
+    display: block; /*clicar no link em toda a área*/
+    padding: 10px 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /*transição ao mudar de cor*/
+}
+nav a:hover{/*ao passar por cima com o rato*/
+    background-color: #62b6cb;
+    text-decoration: none;
+    color: #033f63;
+}
+section{
+    margin-bottom: 2px;
+    padding: 40px 20px;
+    
+}
+article{
+    color: #1b4965;
+    margin-bottom: 20px;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse; /*une bordas*/
+    margin: 30px auto;
+    width: 85%;
+    background-color: #ffffff;
+    border-radius: 10px; /*arredonda cantos*/
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /*profundidade*/
+}
+td{
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /*linha separadora*/
+}
+ul{
+    list-style: none; /*remove marcadores*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /*quebra de linha*/
+    justify-content: center;
+    gap: 20px; /*espaço entre items*/
+}
+li{
+    display: inline-block;
+    background-color: #62b6cb;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+li:hover {
+    background-color: #2c7da0;
+    transform: translateY(-5px); /*move item para cima*/
+}
